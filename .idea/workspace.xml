@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a0baeee-733c-43f0-ad77-2c48bde1df1c" name="Default" comment="" />
+    <list default="true" id="7a0baeee-733c-43f0-ad77-2c48bde1df1c" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\js\cordova.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="weddingApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,19 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icons.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/css/icons.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="37" selection-start="103" selection-end="103" vertical-scroll-proportion="0.07822086" vertical-offset="0" max-vertical-offset="3349">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style5.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style5.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/style5.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4029">
+            <state line="16" column="25" selection-start="256" selection-end="262" vertical-scroll-proportion="0.41717792" vertical-offset="0" max-vertical-offset="4029">
               <folding />
             </state>
           </provider>
@@ -117,6 +119,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -138,7 +143,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -321,6 +326,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7a0baeee-733c-43f0-ad77-2c48bde1df1c" name="Default" comment="" />
@@ -330,7 +352,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -572,9 +594,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style5.css">
+    <entry file="file://$PROJECT_DIR$/www/css/icons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4029">
+        <state line="3" column="37" selection-start="103" selection-end="103" vertical-scroll-proportion="0.07822086" vertical-offset="0" max-vertical-offset="3349">
           <folding />
         </state>
       </provider>
@@ -586,9 +608,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/icons.css">
+    <entry file="file://$PROJECT_DIR$/www/css/style5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="103" selection-end="103" vertical-scroll-proportion="0.07822086" vertical-offset="0" max-vertical-offset="3349">
+        <state line="16" column="25" selection-start="256" selection-end="262" vertical-scroll-proportion="0.41717792" vertical-offset="0" max-vertical-offset="4029">
           <folding />
         </state>
       </provider>
