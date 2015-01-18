@@ -1,0 +1,298 @@
+@CHARSET "UTF-8";
+
+/* ----------------- Generic style ------------------ */
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700);
+@import url(https://fonts.googleapis.com/css?family=Engagement);
+
+@font-face{
+    font-family:'Glyphicons Halflings';
+    src:url(../fonts/glyphicons-halflings-regular.eot);
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html, .app {
+    height:100%;
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #e63a3a;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    min-height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+#login-form-div {
+    width: 90%;
+}
+
+.login-form-container {
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #f5f5f5;
+
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+.hidder {
+    visibility: hidden;
+    -webkit-transition: all 120ms ease-out 1s;
+    -moz-transition: all 120ms ease-out 1s;
+    -o-transition: all 120ms ease-out 1s;
+    transition: all 120ms ease-out 1s;
+}
+
+.spacer5 {
+    padding: 5px 0;
+}
+
+
+.spacer10 {
+    padding: 10px 0;
+}
+
+.wedding-input-text {
+    border-radius: 6px;
+    box-shadow: none;
+    background-color: #fff;
+    color: #000;
+    height: 41px;
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    width: 100%;
+    border: none;
+}
+
+.wedding-input-text:focus {
+    outline: none;
+    border: 1px solid #1bbc9b;
+}
+
+.form-error {
+    color: #CA6D6D;
+    font-style: italic;
+    text-align: center;
+}
+
+.btn-listanozze {
+    background-color: #e63a3a;
+    color: #FFF;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.pull-center {
+    margin: 0 auto;
+}
+
+.green-title {
+    color: #1bbc9b;
+    font-weight: bold;
+}
+
+.event {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+.swing
+{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+#status-screen {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-transition: all 120ms ease-out 1s;
+    -moz-transition: all 120ms ease-out 1s;
+    -o-transition: all 120ms ease-out 1s;
+    transition: all 120ms ease-out 1s;
+}
+
+#status-screen h1 {
+    font-size: 25px;
+}
+
+.dashboard-stat.grey-color {
+    background-color: #2d363a;
+}
+
+.dashboard-stat {
+    display: block;
+    margin-top: 8px;
+    overflow: hidden;
+    height: 106px;
+    color: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.dashboard-stat .visual {
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.dashboard-stat .glyphicon {
+    margin: 4px -30px;
+    color: white;
+    opacity: 0.2;
+    font-size: 94px;
+}
+
+.dashboard-stat .details {
+    position: absolute;
+    right: 25px;
+    padding-right: 15px;
+}
+
+.dashboard-stat .details .number {
+    padding-top: 25px;
+    text-align: right;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.dashboard-stat .decimal-number-part {
+    font-size: 25px;
+}
+
+.dashboard-stat.red-color .details .desc, .dashboard-stat.grey-color .details .desc, .dashboard-stat.green-color .details .desc {
+    color: #FFFFFF;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.dashboard-stat .details .desc {
+    text-align: right;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.white-conatiner {
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;
+}
