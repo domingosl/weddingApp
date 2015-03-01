@@ -21,18 +21,6 @@ var app = {
     initialize: function() {
         this.bindEvents();
         FastClick.attach(document.body);
-        preloader = new $.materialPreloader({
-            position: 'top',
-            height: '7px',
-            col_1: '#f5f5f5',
-            col_2: '#1bbc9b',
-            col_3: '#f5f5f5',
-            col_4: '#1bbc9b',
-            fadeIn: 500,
-            fadeOut: 500
-        });
-
-
         $('#deviceready').center();
         $('#login-form-div').center();
     },
@@ -44,10 +32,12 @@ var app = {
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
 
+        $(".button-collapse").sideNav();
+
         $('#deviceready').addClass('hidder');
         growishApi.load({
             appKey: '1234567890',
-            url: 'https://nozzedev.growish.com/apiproxy/v1/'
+            url: 'https://dev.listanozzeonline.com/apiproxy/v1/'
         });
 
         console.log('API LOADED');
@@ -56,7 +46,7 @@ var app = {
             growishApi.getUser({
                 id: growishApi.getUid(),
                 callback: function(data) {
-                    preloader.off();
+                    //preloader.off();
                     growishApi.getList({
                         id: data.list[0],
                         callback: function(data) {
@@ -89,20 +79,20 @@ $('#login-form-btn').click(function() {
     var button = $(this);
     button.removeClass('swing');
     button.prop("disabled", true);
-    preloader.on();
+    //preloader.on();
     growishApi.formLogin({
         formName: 'login-form',
         callback: function(listId) {
             growishApi.getList({
                 id: listId,
                 callback: function(data) {
-                    preloader.off();
+                    //preloader.off();
                     switchPage('status', data);
                 }
             });
         },
         errorCallback: function() {
-            preloader.off();
+            //preloader.off();
             button.prop("disabled", false);
             button.addClass('swing');
         }
