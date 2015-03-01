@@ -1,87 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a0baeee-733c-43f0-ad77-2c48bde1df1c" name="Default" comment="Release test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/lato/Lato-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/lato/Lato-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/lato/Lato-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/material-design-icons/Material-Design-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/material-design-icons/Material-Design-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/material-design-icons/Material-Design-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/roboto/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/roboto/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/roboto/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/material-design-icons/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/font/material-design-icons/Material-Design-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/materialize.min.js" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\css\icons.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\css\index.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\css\materialPreloader.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\css\style3.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\css\style5.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\css\sweet-alert.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\FontAwesome.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\FontAwesome.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\FontAwesome.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\FontAwesome.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\FontAwesome.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\minicons-webalys.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\minicons-webalys.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\minicons-webalys.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\demoicons\minicons-webalys.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\js\borderMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\js\classie.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\js\cordova.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\js\materialPreloader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\platforms\android\assets\www\js\sweet-alert.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\css\icons.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\css\index.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\css\materialPreloader.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\css\style3.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\css\style5.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\css\sweet-alert.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\FontAwesome.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\FontAwesome.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\FontAwesome.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\FontAwesome.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\FontAwesome.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\minicons-webalys.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\minicons-webalys.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\minicons-webalys.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\demoicons\minicons-webalys.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\js\borderMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\js\classie.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\js\materialPreloader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Domingo\Growish\weddingApp\www\js\sweet-alert.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-36-ldpi.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-36-ldpi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-48-mdpi.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-48-mdpi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-72-hdpi.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-72-hdpi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-96-xhdpi.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/res/icon/android/icon-96-xhdpi.png" />
+    <list default="true" id="7a0baeee-733c-43f0-ad77-2c48bde1df1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/growish.api.js" afterPath="$PROJECT_DIR$/www/js/growish.api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weddingApp.iws" />
@@ -105,16 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="41" selection-start="3751" selection-end="3751" vertical-scroll-proportion="1.7471452" vertical-offset="0" max-vertical-offset="1462">
+            <state line="63" column="41" selection-start="3751" selection-end="3751" vertical-scroll-proportion="-41.192307" vertical-offset="0" max-vertical-offset="1462">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="50" selection-start="533" selection-end="533" vertical-scroll-proportion="0.2868098" vertical-offset="0" max-vertical-offset="1292">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/css/materialPreloader.min.css" />
         <option value="$PROJECT_DIR$/www/css/index.css" />
         <option value="$PROJECT_DIR$/www/css/style3.css" />
@@ -181,6 +110,7 @@
         <option value="$PROJECT_DIR$/www/css/common.css" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -307,20 +237,25 @@
       <created>1421623486864</created>
       <updated>1421623486864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Release test">
+      <created>1425248139931</created>
+      <updated>1425248139931</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -330,7 +265,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -349,7 +283,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
+    <MESSAGE value="Release test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -568,13 +503,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="91" selection-start="4702" selection-end="4705" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/materialize.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="21" selection-end="22" vertical-scroll-proportion="0.027732464" vertical-offset="0" max-vertical-offset="613" />
@@ -619,13 +547,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="41" selection-start="3751" selection-end="3751" vertical-scroll-proportion="1.7471452" vertical-offset="0" max-vertical-offset="1462">
+        <state line="63" column="41" selection-start="3751" selection-end="3751" vertical-scroll-proportion="-41.192307" vertical-offset="0" max-vertical-offset="1462">
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="533" selection-end="533" vertical-scroll-proportion="0.2868098" vertical-offset="0" max-vertical-offset="1292">
+          <folding />
         </state>
       </provider>
     </entry>
