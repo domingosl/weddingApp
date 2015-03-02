@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0baeee-733c-43f0-ad77-2c48bde1df1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weddingApp.iws" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="4352" selection-end="4352" vertical-scroll-proportion="0.9445351" vertical-offset="781" max-vertical-offset="1462">
+            <state line="9" column="57" selection-start="676" selection-end="676" vertical-scroll-proportion="0.24959217" vertical-offset="0" max-vertical-offset="1462">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -204,7 +202,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/template" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -280,7 +278,11 @@
       <created>1425328221613</created>
       <updated>1425328221613</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Release test&#10;">
+      <created>1425330940239</created>
+      <updated>1425330940239</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -622,7 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="4352" selection-end="4352" vertical-scroll-proportion="0.9445351" vertical-offset="781" max-vertical-offset="1462">
+        <state line="9" column="57" selection-start="676" selection-end="676" vertical-scroll-proportion="0.24959217" vertical-offset="0" max-vertical-offset="1462">
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
