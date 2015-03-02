@@ -19,10 +19,15 @@
 var app = {
     // Application Constructor
     initialize: function() {
+        alert(1);
         this.bindEvents();
+        alert(2);
         FastClick.attach(document.body);
+        alert(3);
         $('#deviceready').center();
+        alert(4);
         $('#login-form-div').center();
+        alert(5);
     },
 
     bindEvents: function() {
