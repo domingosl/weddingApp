@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="50" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.66721046" vertical-offset="849" max-vertical-offset="1462">
+            <state line="18" column="52" selection-start="993" selection-end="993" vertical-scroll-proportion="0.25774878" vertical-offset="148" max-vertical-offset="1462">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -286,7 +286,11 @@
       <created>1425331404570</created>
       <updated>1425331404570</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Release test&#10;">
+      <created>1425331706127</created>
+      <updated>1425331706127</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -628,7 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="50" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.66721046" vertical-offset="849" max-vertical-offset="1462">
+        <state line="18" column="52" selection-start="993" selection-end="993" vertical-scroll-proportion="0.25774878" vertical-offset="148" max-vertical-offset="1462">
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
