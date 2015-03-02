@@ -32,7 +32,12 @@ var app = {
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
 
+
+        $('#deviceready').hide();
+
         $(".button-collapse").sideNav();
+
+        $('#content-div').height($(window).height() - 85 + 'px');
 
         $('#deviceready').addClass('hidder');
         growishApi.load({
@@ -47,6 +52,7 @@ var app = {
                 id: growishApi.getUid(),
                 callback: function(data) {
                     //preloader.off();
+                    console.log(data.email);
                     growishApi.getList({
                         id: data.list[0],
                         callback: function(data) {
@@ -54,6 +60,12 @@ var app = {
                             switchPage('status', data);
                         }
                     });
+                },
+                errorCallback: function(data) {
+                    console.log('can\'t download user');
+                    growishApi.logout();
+                    switchPage('login');
+                    return true;
                 }
             });
         } else {
@@ -77,22 +89,23 @@ var app = {
 
 $('#login-form-btn').click(function() {
     var button = $(this);
-    button.removeClass('swing');
     button.prop("disabled", true);
-    //preloader.on();
+    preloader.on();
     growishApi.formLogin({
         formName: 'login-form',
         callback: function(listId) {
             growishApi.getList({
                 id: listId,
                 callback: function(data) {
-                    //preloader.off();
+                    preloader.off();
+                    button.prop("disabled", false);
                     switchPage('status', data);
                 }
             });
         },
         errorCallback: function() {
-            //preloader.off();
+            preloader.off();
+            button.prop("disabled", false);
             button.prop("disabled", false);
             button.addClass('swing');
         }
@@ -101,19 +114,41 @@ $('#login-form-btn').click(function() {
 
 function switchPage(page, data) {
     if(page === 'status') {
-        $("#status-screen").css('height',$(window).height())
-        $('#list_credit').html(priceFormat(data.amount));
-        $('#owners-names').html(data.brideName + ' e ' + data.groomName + '!' );
+        $('#login-form-div').hide(100, function() {
+            $('#main-div').show();
+        });
 
-        $('#login-form-div').addClass('hidder');
-        $('#status-screen').removeClass('hidder');
     }
     else if(page === 'login') {
-        $('#login-form-div').removeClass('hidder');
-        $('#status-screen').addClass('hidder');
+        $('#main-div').hide(100, function() {
+            $('#login-form-div').show();
+        });
     }
 }
 
+
+$('.nav-wrapper a').click(function() {
+    var link = $(this).attr('href');
+
+    switch(link)
+    {
+        case '#logout':
+            $(".button-collapse").sideNav('hide');
+            switchPage('login');
+            growishApi.logout();
+            break;
+    }
+
+});
+
+var preloader = {
+    on: function() {
+        $('.loader-background').fadeIn(100);
+    },
+    off: function() {
+        $('.loader-background').fadeOut(100);
+    }
+}
 
 $.fn.center = function () {
     this.css("position","absolute");

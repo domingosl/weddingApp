@@ -218,6 +218,7 @@ var growishApi = (function () {
         },
 
         getUser: function(options) {
+            errorCallback = options.errorCallback;
             client.user.read(options.id).done(function(data) {
                 options.callback(data.data);
             });
@@ -256,7 +257,7 @@ var growishApi = (function () {
         logout: function(c) {
             $.removeCookie('api-token', { path: '/' });
             $.removeCookie('api-id', { path: '/' });
-
+            console.log('Logging out!');
             if(token !== '') {
                 errorCallback = c();
                 client.auth.destroy().done( function(data)

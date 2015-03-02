@@ -10,7 +10,8 @@
         <link rel="stylesheet" type="text/css" href="css/common.css" />
         <title>ListaNozzeOnline.com</title>
     </head>
-    <body>
+    <body style="background-color: #e63a3a">
+    <div class="loader-background" style="display: none;"></div>
         <div class="app">
 
             <!--LOADING-->
@@ -18,50 +19,52 @@
                 <p class="event listening">attendere...</p>
             </div>
 
-            <!--LOGIN SCREEN
-            <div id="login-form-div" class="hidder">
+            <!--LOGIN SCREEN-->
+            <div id="login-form-div" style="display: none;">
                 <div class="row container">
-                    <div class="col-sm-10 col-sm-offset-1 text-center">
-                        <img src="img/logo.png" />
-                        <div class="spacer10"></div>
-                        <div class="login-form-container">
-                            <form name="login-form" id="login-form">
-                                <div class="spacer5"></div>
-                                <input name="email" type="text" class="wedding-input-text" placeholder="La tua email…">
-                                <div data-field="email" class="form-error"></div>
-                                <div class="spacer5"></div>
-                                <input name="password" type="password" class="wedding-input-text" placeholder="La tua password…">
-                                <div data-field="password" class="form-error"></div>
-                                <div class="spacer10"></div>
-                                <button id="login-form-btn" type="button" name="submit" class="btn btn-listanozze pull-center full-width">
-                                    Accedi
-                                </button>
-                            </form>
-                        </div>
+                    <img src="img/logo.png" />
+                    <div class="spacer5"></div>
+                    <div class="login-form-container">
+                        <form name="login-form" id="login-form">
+                            <input name="email" type="text" class="wedding-input-text" placeholder="La tua email…" value="domingo.lupo@growish.com">
+                            <div data-field="email" class="form-error"></div>
+                            <input name="password" type="password" class="wedding-input-text" placeholder="La tua password…" value="17798330">
+                            <div data-field="password" class="form-error"></div>
+                            <div class="spacer5"></div>
+                            <button id="login-form-btn" type="button" name="submit" class="btn btn-listanozze pull-center full-width">
+                                <i class="mdi-social-person left"></i> Accedi
+                            </button>
+                        </form>
                     </div>
                 </div>
-            </div>-->
+            </div>
 
             <!--STATUS SCREEN-->
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo"><img class="header-logo" src="img/logo.png" /></a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#">Credito</a></li>
-                        <li><a href="#">Estratto conto</a></li>
-                        <li><a href="#">Ultimi versamenti</a></li>
-                        <li><a href="#">Logout</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="#">Credito</a></li>
-                        <li><a href="#">Estratto conto</a></li>
-                        <li><a href="#">Ultimi versamenti</a></li>
-                        <li><a href="#">Logout</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <div id="main-div" style="display: none;">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#!" class="brand-logo"><img class="header-logo" src="img/logo.png" /></a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#"><i class="mdi-editor-attach-money left"></i> Credito</a></li>
+                            <li><a href="#"><i class="mdi-action-account-balance left"></i> Estratto conto</a></li>
+                            <li><a href="#">Ultimi versamenti</a></li>
+                            <li><a href="#logout">Logout</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a href="#"><i class="mdi-editor-attach-money left"></i> Credito</a></li>
+                            <li><a href="#"><i class="mdi-action-account-balance left"></i> Estratto conto</a></li>
+                            <li><a href="#"><i class="mdi-image-portrait left"></i> Ultimi versamenti</a></li>
+                            <li><a href="#logout"><i class="mdi-hardware-keyboard-return left"></i> Logout</a></li>
+                        </ul>
+                    </div>
+                </nav>
 
+                <div id="content-div">
+                    <h1>Hello world!</h1>
+                </div>
+
+            </div>
         </div>
 
         <script type="text/javascript" src="cordova.js"></script>
